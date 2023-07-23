@@ -1,0 +1,79 @@
+/*=========================
+Lights On-Off Project
+---------------------
+Project Description
+-------------------
+
+This is a Javascript project for lights on and off
+user can either click ON or OFF button to see how it 
+responds.
+---------
+
+
+Table Of Content
+================
+1. Body
+2. Main
+3. Span
+4. Button
+----------
+
+Author: Gideon Kiplangat
+Version: 1.0
+===========================
+*/
+
+/*===========
+1. Body
+=============*/
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+}
+/*===========
+2. Main Section
+=============*/
+.main {
+    background-color: whitesmoke;
+    max-width: 90%;
+    margin-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 3px;
+}
+/*===========
+3. Span Section
+=============*/
+span, h4 {
+    color: orange;
+    font-weight: bold;
+}
+/*===========
+4. Button
+=============*/
+button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    width: 200px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: orange;
+    color: black;
+    border: none;
+}
+#off {
+    background-color: black;
+    color: orange;
+}
+a {
+    color:orange;
+    text-decoration: none;
+}
+/*=========END============*/

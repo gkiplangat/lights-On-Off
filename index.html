@@ -18,7 +18,25 @@
 <body>
     <!--Main div-->
     <div class="main">
-        
+        <div>
+            <h3>Lights <span>On-Off</span> with Js</h3>
+            <p>To check how the program works, you can play around with <span>ON</span> and <span>OFF</span> button below</p>
+        </div>
+        <div class="bulb">
+            <h4 id="message-el">Lights Off</h4>
+            <img id="bulb" src="images/lights-off.png" alt="bulb" width="200px">
+        </div>
+        <div class="buttons">
+            <button id="on" onclick="btnOn()">ON</button>
+            <button id="off" onclick="btnOff()">OFF</button>
+        </div>
+        <!--Footer-->
+        <div class="footer">
+            <footer>
+                <p>&copy; <script>document.write(getCurrentYear());</script><a href="https://www.linkedin.com/in/gideon-kiplangat-aaa478179/">Gideon Kiplangat</a>. All rights reserved.</p>
+                <p><a href="">Project Github Link</a></p>
+            </footer>
+        </div>
     </div>   
     <!--Javascript-->
     <script src="index.js"></script>
